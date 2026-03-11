@@ -527,7 +527,7 @@ class OSSimulator:
         # Title with animation
         title_frame = tk.Frame(root, bg='#F0F0F0')
         title_frame.pack(fill='x', padx=20, pady=10)
-        title_label = tk.Label(title_frame, text="Windows-like OS Simulator", 
+        title_label = tk.Label(title_frame, text="Operating System Simulator", 
                               font=('Segoe UI', 16, 'bold'), fg='#0078D4', bg='#F0F0F0')
         title_label.pack()
         
@@ -916,5 +916,6 @@ class OSSimulator:
 if __name__ == "__main__":
 
     os = OSSimulator()
+
 
     os.run_gui()
